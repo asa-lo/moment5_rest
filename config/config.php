@@ -9,7 +9,7 @@ ini_set("display_errors", 1);
 
 // DB-settings (localhost)
 
-define("DBHOST", "studentmysql.miun.se");
-define("DBUSER", "aslo1900");
-define("DBPASS", "c4h2xdrg");
-define("DBDATABASE", "aslo1900"); 
+define("DBHOST", "localhost");
+define("DBUSER", "root");
+define("DBPASS", "");
+define("DBDATABASE", "moment5"); 
