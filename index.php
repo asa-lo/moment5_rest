@@ -66,4 +66,4 @@ switch ($method) {
         break;
 }
 
-echo json_encode($response);
+echo json_encode($response, JSON_PRETTY_PRINT);
