@@ -12,7 +12,7 @@ class Courses
         //Database connection
         $this->db = new mysqli(DBHOST, DBUSER, DBPASS, DBDATABASE);
         if ($this->db->connect_errno > 0) {
-            die("Databases connection error" . $this->db->connect_error);
+            die("Database connection error" . $this->db->connect_error);
         }
     }
 
